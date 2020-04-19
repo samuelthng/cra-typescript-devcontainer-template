@@ -11,12 +11,14 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
+		// Default Node 12 & Typescript container extensions
 		"dbaeumer.vscode-eslint",
 		"ms-vscode.vscode-typescript-tslint-plugin",
-		"msjsdiag.debugger-for-chrome",
+		
+		// Supplementary container extensions
 		"christian-kohler.path-intellisense",
-		"coenraads.bracket-pair-colorizer-2",
 		"mutantdino.resourcemonitor",
+		"wix.vscode-import-cost",
 		"eamodio.gitlens"
 	],
 
